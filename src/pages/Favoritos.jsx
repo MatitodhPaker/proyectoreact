@@ -6,7 +6,7 @@ export const Favoritos = () => {
     <MainLayout>
         <div>Favoritos</div>
     </MainLayout>
-        </>
+    </>
     
   )
 }

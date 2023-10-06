@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom"
-
+import { BsBookmark } from 'react-icons/bs';
+import { BiSearch } from 'react-icons/bi';
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-            <a className="navbar-brand" href="#">Navbar</a>
+            <a className="navbar-brand" href={'/'}>
+                <img src="/img/crunchyroll-logo-0.png" style={{width:'100px'}} alt="..."/>
+            </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -21,8 +24,8 @@ export const Navbar = () => {
                     </li>
                 </ul>
                 <form className="d-flex">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button className="btn btn-outline-success" type="submit">Search</button>
+                    <a className="text-white" style={{fontSize:'1.5rem'}}><BiSearch/></a>
+                    <a className="text-white ml-1" style={{fontSize:'1.5rem'}}><BsBookmark/></a>
                 </form>
             </div>
         </div>

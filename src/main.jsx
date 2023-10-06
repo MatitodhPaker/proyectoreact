@@ -4,7 +4,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import {App} from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/js/dist/carousel.js';
 import { Explorar, Favoritos, HomePage } from "./pages";
