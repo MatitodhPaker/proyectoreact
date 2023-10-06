@@ -11,6 +11,9 @@ export const Explorar = () => {
                 <div className="col">
                   <h1 className="text-white">Lo mas Popular</h1>
                 </div>
+                <div className="col">
+                  
+                </div>
               </div>
               <div className="row">
                 {
